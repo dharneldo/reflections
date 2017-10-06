@@ -14,9 +14,11 @@ organized? How would branches help?
 Adding some experimental feature or exploring new functionality. Create one branch for every experimental feature
 
 How do the diagrams help you visualize the branch structure?
+The diagram help me navigate each available branch when the head is detached
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+Merging two branch will combine 2 changes made on each branch relative to their common parents. We represent it the way we do because merging is actually making a new commit with 2 parents.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
